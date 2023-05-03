@@ -1,0 +1,86 @@
+@charset "utf8";
+
+/*@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300 & display=swap');*/
+/* Achei mais facil inserir o text para centralizar e ir corrigindo com valores direto no atributo desejado*/
+* {
+    text-align: center;
+}
+
+
+
+/*Inseri classe0 para fazer o contorno da borda da foto de perfil*/
+.classe1 {
+    align-items: center;
+    justify-content: center;
+}
+
+.classe1 img {
+    border: 3px solid #bb99dd;
+    padding: 5px;
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    
+}
+
+
+
+.classe2 {
+    width: 400px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+body {
+    align-items: center;
+    background-color: #faf7fd;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    color: #bb99dd;
+   font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #d3c9dd;
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: #bb99dd;
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
+
+.ul {
+    list-style-type: none;
+    
+}
+
+button {
+    color: #bb99dd;
+    border-radius: 5px;
+    border-color: #bb99dd;
+    border: 2px solid;
+    width: 326px;
+    height: 49px;
+    margin-bottom: 16px;
+    padding: 0%;
+    transition: transform .3s;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 48px;
+}
+   
+.tudo {
+    max-width: 500px;
+    margin: auto;
+}
